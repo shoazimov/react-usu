@@ -18,11 +18,14 @@ const Contact = () => {
                 +998(98)311-74-54
               </div>
               <div className="c-info-item">
+                {/* <a
+                
+                > */}
                 <a
+                  class="container"
                   rel="noreferrer"
                   target="_blank"
                   href="mailto:usuteam07@gmail.com"
-                  class="coffee-container"
                 >
                   <div class="coffee-header">
                     <div class="coffee-header__buttons coffee-header__button-one"></div>
