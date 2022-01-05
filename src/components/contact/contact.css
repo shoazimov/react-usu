@@ -91,7 +91,7 @@
   position: absolute;
   bottom: -20px;
   left: calc(50% - 25px);
-  background-color: #231f20;
+  background-color: #231f21;
 }
 .coffe-medium__exit::after {
   content: "";
