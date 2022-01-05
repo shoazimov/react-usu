@@ -25,10 +25,13 @@ const Contact = () => {
                   rel="noreferrer"
                   href="https://yandex.uz/maps/org/190231201887/?ll=69.193878%2C41.340923&z=15"
                 >
-                  132 School, Shaykhontokhur, Tashkent
+                  132 School, Shaykhontokhur
                 </a>
               </div>
-  <div className="c-info-item">
+  
+            </div>
+          </div>
+          <div className="c-right"><div className="c-info-item">
                  <a
                   id="coffee-wrap"
                   target="_blank"
@@ -428,10 +431,7 @@ const Contact = () => {
                     </svg>
                   </div>
                 </a>
-              </div>
-            </div>
-          </div>
-          <div className="c-right"></div>
+              </div></div>
         </div>
       </div>
       <div className="navbar">
