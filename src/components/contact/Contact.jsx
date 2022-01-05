@@ -18,6 +18,17 @@ const Contact = () => {
                 +998(98)311-74-54
               </div>
               <div className="c-info-item">
+                <img src={Address} alt="" className="c-icon" />
+                <a
+                  className="c-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://yandex.uz/maps/org/190231201887/?ll=69.193878%2C41.340923&z=15"
+                >
+                  132 School, Shaykhontokhur, Tashkent
+                </a>
+              </div>
+  <div className="c-info-item">
                  <a
                   id="coffee-wrap"
                   target="_blank"
@@ -416,17 +427,6 @@ const Contact = () => {
                       </g>
                     </svg>
                   </div>
-                </a>
-              </div>
-              <div className="c-info-item">
-                <img src={Address} alt="" className="c-icon" />
-                <a
-                  className="c-link"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://yandex.uz/maps/org/190231201887/?ll=69.193878%2C41.340923&z=15"
-                >
-                  132 School, Shaykhontokhur, Tashkent
                 </a>
               </div>
             </div>
