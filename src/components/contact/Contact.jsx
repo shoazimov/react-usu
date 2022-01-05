@@ -19,6 +19,7 @@ const Contact = () => {
               </div>
               <div className="c-info-item">
                 <a
+                  rel="noreferrer"
                   target="_blank"
                   href="mailto:usuteam07@gmail.com"
                   class="coffee-container"
@@ -47,6 +48,7 @@ const Contact = () => {
                 <a
                   className="c-link"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://yandex.uz/maps/org/190231201887/?ll=69.193878%2C41.340923&z=15"
                 >
                   132 School, Shaykhontokhur, Tashkent
