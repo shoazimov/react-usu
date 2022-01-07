@@ -37,13 +37,18 @@ const Contact = () => {
           </div>
           <div className="c-right">
             <div className="c-info-item">
-              <a id="wrap" target="_blank" href="mailto:usuteam07@gmail.com">
+              <a
+                id="wrap"
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:usuteam07@gmail.com"
+              >
                 <div id="steam" class="steam-one"></div>
                 <div id="steam" class="steam-two"></div>
                 <div id="steam" class="steam-three"></div>
                 <div id="steam" class="steam-four"></div>
                 <div id="cup">
-                  <div wwegwegegwgegwgwgwegewgclawefwefgwss="cup-body">
+                  <div class="cup-body">
                     <h3 className="mayfrend">See you there!</h3>
                     <div class="cup-shade"></div>
                   </div>
