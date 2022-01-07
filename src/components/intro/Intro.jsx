@@ -57,7 +57,7 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            Hello, friends! It's our team, <strong>𝕌𝕊𝕌</strong>, which consists
+            Hello, friends! It's our team, <strong>USU</strong>, which consists
             of 9 members. We are always ready to help and support you, just ask!
           </p>
         </div>
