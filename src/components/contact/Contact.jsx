@@ -44,7 +44,7 @@ const Contact = () => {
 
                   <div class="machine">
                     <svg
-                      class="svg-machine"
+                      class="svg-machine" 
                       preserveAspectRatio="none"
                       viewBox="0 0 172.562 284.959"
                       enable-background="new 0 0 172.562 284.959"
