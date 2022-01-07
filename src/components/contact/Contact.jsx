@@ -49,7 +49,6 @@ const Contact = () => {
                 <div id="steam" class="steam-four"></div>
                 <div id="cup">
                   <div class="cup-body">
-                    <h3 className="mayfrend">See you there!</h3>
                     <div class="cup-shade"></div>
                   </div>
                   <div class="cup-handle"></div>
