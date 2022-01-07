@@ -41,7 +41,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hi, we are</h2>
-          <Text className="i-name">𝕌𝕊𝕌</Text>
+          <Text className="i-name">USU</Text>
           <div className="i-title">
             <div className="i-title-wrapper">
               <Title className="i-title-item">Shoazimov Muhammadrizo</Title>
