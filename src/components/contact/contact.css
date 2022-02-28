@@ -1,5 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fredericka+the+Great&family=Goudy+Bookletter+1911&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@600;700&family=Raleway:ital,wght@0,900;1,900&family=Redacted+Script:wght@300;400;700&family=Shizuru&family=Syncopate:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fredericka+the+Great&family=Goudy+Bookletter+1911&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@600;700&family=Raleway:ital,wght@0,900;1,900&family=Redacted+Script:wght@300;400;700&family=Shizuru&family=Syncopate:wght@400;700&display=swap");
 
+html {
+  height: 8vh;
+  font-family: "Quicksand";
+}
+
+body {
+  margin: 0;
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.mayfrend {
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 60px;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 35px;
+}
+
+p {
+  font-family: "Quicksand";
+}
 #wrap {
   position: absolute;
   top: 55%;
@@ -50,6 +75,7 @@
     opacity: 0;
   }
 }
+
 .cup-body {
   position: absolute;
   width: 100%;
@@ -174,24 +200,40 @@
   }
 }
 
-.navbar {
-  background-color: #000;
-  overflow: hidden;
-  position: static;
-  bottom: 0;
+.heart {
+  color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .saurce {
+    display: none;
+  }
+  #cup {
+    transform: scale(0.5);
+    margin-top: -40%;
+  }
+
+  #steam {
+    margin-top: -50%;
+  }
+}
+
+nav {
+  /* left: 50%; */
+  color: #fff;
+  background: #000;
+  position: absolute;
+  height: 25px;
   width: 100%;
 }
 
-.navbar h3 {
-  float: center;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 7px 10px;
-  text-decoration: none;
-  font-size: 17px;
+nav h4 {
+  position: absolute;
+  left: 42.5%;
 }
 
-.heart {
-  color: red;
+@media screen and (max-width: 480px) {
+  nav h4 {
+    left: 30%;
+  }
 }
