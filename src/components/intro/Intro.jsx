@@ -1,7 +1,7 @@
 import "./intro.css";
 import styled from "styled-components";
 import "../../fonts.css";
-import { sogot } from "./sogot";
+import "./sogot";
 
 const Text = styled.h1`
   letter-spacing: 7.5px;
@@ -347,7 +347,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="i-right">
-          <div className="container">
+          <div className="container" style={{ zIndex: 15 }}>
             <div className="word w1" style={{ color: "#414141" }}>
               Now
             </div>
@@ -362,7 +362,7 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <script src={sogot} type="text/javascript"></script>
+        <script src="./sogot" type="text/javascript"></script>
       </div>
     </>
   );
