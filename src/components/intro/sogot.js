@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const clock = new ProgressClock("#clock");
+  var clock = new ProgressClock("#clock");
 });
 
 class ProgressClock {
