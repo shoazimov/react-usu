@@ -73,11 +73,9 @@ p {
 }
 
 .a-motivation-texts {
-  /* margin-left: 50px; */
   width: 70%;
 }
 .a-motivation-title {
-  /* margin-left: 50px; */
   font-weight: bold;
   color: #555;
   margin-bottom: 10px;
@@ -108,5 +106,13 @@ p {
     position: relative;
     top: 50%;
     left: 50%;
+  }
+
+  .a-motivation-texts {
+    margin-left: 50px;
+  }
+
+  .a-motivation-title {
+    margin-left: 8%;
   }
 }
