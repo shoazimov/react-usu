@@ -7,11 +7,11 @@ const Text = styled.h1`
   letter-spacing: 7.5px;
 `;
 
-const Title = styled.div`
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.2px;
-  line-height: 20px;
-`;
+// const Title = styled.div`
+//   font-family: "Poppins", sans-serif;
+//   letter-spacing: 0.2px;
+//   line-height: 20px;
+// `;
 
 const Intro = () => {
   return (
@@ -189,6 +189,7 @@ const Intro = () => {
               src="https://i.postimg.cc/yd92hBJY/clouds.png"
               width="200"
               height="50"
+              alt="lala"
             />
           </div>
 
@@ -196,6 +197,7 @@ const Intro = () => {
             {" "}
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
+              alt="lala"
               width="3px"
               height="10px"
             />
@@ -204,6 +206,7 @@ const Intro = () => {
             {" "}
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
+              alt="lala"
               width="3px"
               height="10px"
             />
@@ -212,6 +215,7 @@ const Intro = () => {
             {" "}
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
+              alt="lala"
               width="3px"
               height="10px"
             />
@@ -221,6 +225,7 @@ const Intro = () => {
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
               width="3px"
+              alt="lala"
               height="10px"
             />
           </div>
@@ -235,6 +240,7 @@ const Intro = () => {
           <div id="kapljica6">
             {" "}
             <img
+              alt="lala"
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
               width="3px"
               height="10px"
@@ -251,6 +257,7 @@ const Intro = () => {
           <div id="kapljica8">
             {" "}
             <img
+              alt="lala"
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
               width="3px"
               height="10px"
@@ -261,6 +268,7 @@ const Intro = () => {
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
               width="3px"
+              alt="lala"
               height="10px"
             />
           </div>
@@ -269,6 +277,7 @@ const Intro = () => {
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
               width="3px"
+              alt="lala"
               height="10px"
             />
           </div>
@@ -277,13 +286,14 @@ const Intro = () => {
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
               width="3px"
+              alt="lala"
               height="10px"
             />
           </div>
 
           <div id="zvezda">
             {" "}
-            <img src="https://i.postimg.cc/wM5vGSr9/star.png" />{" "}
+            <img alt="lala" src="https://i.postimg.cc/wM5vGSr9/star.png" />{" "}
           </div>
 
           <div id="pokretni_oblak1">
@@ -292,12 +302,14 @@ const Intro = () => {
               src="https://i.postimg.cc/yd92hBJY/clouds.png"
               width="100"
               height="20"
+              alt="lala"
             />{" "}
           </div>
           <div id="pokretni_oblak2">
             {" "}
             <img
               src="https://i.postimg.cc/yd92hBJY/clouds.png"
+              alt="lala"
               width="100"
               height="20"
             />{" "}
@@ -306,6 +318,7 @@ const Intro = () => {
             {" "}
             <img
               src="https://i.postimg.cc/yd92hBJY/clouds.png"
+              alt="lala"
               width="100"
               height="20"
             />{" "}
@@ -314,6 +327,7 @@ const Intro = () => {
             {" "}
             <img
               src="https://i.postimg.cc/yd92hBJY/clouds.png"
+              alt="lala"
               width="100"
               height="20"
             />{" "}
