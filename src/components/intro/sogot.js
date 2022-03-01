@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
+  // eslint-disable-next-line
   var clock = new ProgressClock("#clock");
 });
 
