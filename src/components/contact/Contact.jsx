@@ -18,7 +18,7 @@ const Contact = () => {
                 href="https://t.me/usu_feedbacks"
                 className="c-info-item"
               >
-                <img src={Phone} alt="" className="c-icon" />
+                <img src={Phone} alt="lala" className="c-icon" />
                 USU Feedbacks
               </a>
               <div className="c-info-item">
@@ -26,7 +26,7 @@ const Contact = () => {
                 Write a Feedback (click the Black CUP!)
               </div>
               <div className="c-info-item">
-                <img src={Address} alt="" className="c-icon" />
+                <img src={Address} alt="lala" className="c-icon" />
                 <a
                   className="c-link"
                   target="_blank"
