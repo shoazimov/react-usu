@@ -234,6 +234,7 @@ const Intro = () => {
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
               width="3px"
+              alt="lala"
               height="10px"
             />
           </div>
@@ -251,6 +252,7 @@ const Intro = () => {
             <img
               src="https://i.postimg.cc/XJpdt7K4/rain.png"
               width="3px"
+              alt="lala"
               height="10px"
             />
           </div>
