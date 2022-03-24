@@ -3,7 +3,6 @@ import "./contact.css";
 import Address from "../../images/address.png";
 import Phone from "../../images/Telegram-Logo.png";
 import { GiCoffeeCup } from "react-icons/gi";
-import { FaHeart } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
@@ -22,10 +21,6 @@ const Contact = () => {
                 USU Feedbacks
               </a>
               <div className="c-info-item">
-                <GiCoffeeCup color="brown" className="gi" />
-                Write a Feedback (click the Black CUP!)
-              </div>
-              <div className="c-info-item">
                 <img src={Address} alt="lala" className="c-icon" />
                 <a
                   className="c-link"
@@ -40,32 +35,61 @@ const Contact = () => {
           </div>
           <div className="c-right">
             <div className="c-info-item">
-              <a
-                id="wrap"
-                target="_blank"
-                rel="noreferrer"
-                href="https://t.me/usu_feedbacks"
-              >
-                <div id="steam" class="steam-one"></div>
-                <div id="steam" class="steam-two"></div>
-                <div id="steam" class="steam-three"></div>
-                <div id="steam" class="steam-four"></div>
-                <div id="cup">
-                  <div class="cup-body">
-                    <h3 className="mayfrend">See you there!</h3>
-                    <div class="cup-shade"></div>
-                  </div>
-                  <div class="cup-handle"></div>
-                  <div class="saurce"></div>
+              <div className="bgbox">
+                <div class="spinner-box">
+                  <div class="blue-orbit leo"></div>
+
+                  <div class="green-orbit leo"></div>
+
+                  <div class="red-orbit leo"></div>
+
+                  <div class="white-orbit w1 leo"></div>
+                  <div class="white-orbit w2 leo"></div>
+                  <div class="white-orbit w3 leo"></div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <nav>
         <h4>
-          By Shoazimov with <FaHeart fill="red" />
+          By Shoazimov with
+          <svg
+            class="heart-loader"
+            xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlnsSvg="http://www.w3.org/2000/svg"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 90 90"
+            version="1.1"
+          >
+            <g class="heart-loader__group">
+              <path
+                class="heart-loader__square"
+                stroke-width="1"
+                fill="none"
+                d="M0,30 0,90 60,90 60,30z"
+              />
+              <path
+                class="heart-loader__circle m--left"
+                stroke-width="1"
+                fill="none"
+                d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"
+              />
+              <path
+                class="heart-loader__circle m--right"
+                stroke-width="1"
+                fill="none"
+                d="M60,60 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"
+              />
+              <path
+                class="heart-loader__heartPath"
+                stroke-width="2"
+                d="M60,30 a30,30 0 0,1 0,60 L0,90 0,30 a30,30 0 0,1 60,0"
+              />
+            </g>
+          </svg>
         </h4>
       </nav>
     </>
