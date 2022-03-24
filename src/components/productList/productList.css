@@ -38,8 +38,8 @@
   .pl-desc {
     display: none;
   }
-}
 
-.gifs {
-  width: 100%;
+  .pl-title {
+    margin-top: 200px;
+  }
 }
