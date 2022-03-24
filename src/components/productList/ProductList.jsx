@@ -10,7 +10,6 @@ import usu7 from "../../usu-images/usu5.jpeg";
 import usu8 from "../../usu-images/usu6.jpeg";
 import usu9 from "../../usu-images/usu7.jpeg";
 import usu10 from "../../usu-images/usu8.jpeg";
-import usu12 from "../../usu-images/usu10.jpeg";
 
 import Product from "../product/Product";
 
@@ -25,7 +24,6 @@ const ProductList = () => {
           </p>
         </div>
         <div className="pl-list">
-          <Product img={usu1} />
           <Product img={usu4} />
           <Product img={usu2} />
           <Product img={usu3} />
@@ -35,7 +33,6 @@ const ProductList = () => {
           <Product img={usu8} />
           <Product img={usu9} />
           <Product img={usu10} />
-          <Product img={usu12} />
         </div>
       </div>
     </>
