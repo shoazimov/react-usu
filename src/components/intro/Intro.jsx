@@ -7,11 +7,11 @@ const Text = styled.h1`
   letter-spacing: 7.5px;
 `;
 
-// const Title = styled.div`
-//   font-family: "Poppins", sans-serif;
-//   letter-spacing: 0.2px;
-//   line-height: 20px;
-// `;
+const Title = styled.div`
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+`;
 
 const Intro = () => {
   return (
@@ -341,43 +341,58 @@ const Intro = () => {
             <Text style={{ fontFamily: "Brolink" }} className="i-name">
               USU
             </Text>
-            {/* <div className="i-title">
+            <div className="i-title">
               <div className="i-title-wrapper">
-                <Title className="i-title-item">Members:</Title>
-                <Title className="i-title-item">Shoazimov Muhammadrizo</Title>
-                <Title className="i-title-item">Usmonova Shodiya</Title>
-                <Title className="i-title-item">Askarjanov Abdulaziz</Title>
-                <Title className="i-title-item">Orifboyeva Muslima</Title>
-                <Title className="i-title-item">Karimova Sevinch</Title>
-                <Title className="i-title-item">Qosimova Aziza</Title>
-                <Title className="i-title-item">Akbarjonova Muhsina</Title>
-                <Title className="i-title-item">Shukhratov Said</Title>
-                <Title className="i-title-item">Saydolimov Saidislom</Title>
+                <Title
+                  className="i-title-item"
+                  style={{
+                    fontFamily: "Dancing Script",
+                    color: "#000000",
+                    fontWeight: "900",
+                  }}
+                >
+                  Now Learn, Later Earn
+                </Title>
+                <Title
+                  className="i-title-item"
+                  style={{
+                    fontFamily: "Goudy Bookletter 1911",
+                    color: "#000000",
+                    fontWeight: "900",
+                  }}
+                >
+                  Now Learn, Later Earn
+                </Title>
+                <Title
+                  className="i-title-item"
+                  style={{
+                    fontFamily: "Raleway",
+                    color: "#000000",
+                    fontWeight: "900",
+                  }}
+                >
+                  Now Learn, Later Earn
+                </Title>
+                <Title
+                  className="i-title-item"
+                  style={{
+                    fontFamily: "Fredericka The Great",
+                    color: "#000000",
+                    fontWeight: "900",
+                  }}
+                >
+                  Now Learn, Later Earn
+                </Title>
               </div>
-            </div> */}
+            </div>
             <p className="i-desc">
               Hello, friends! It's our team, <span className="usu">USU</span>,
-              which consists of 8 members. We are always ready to help and
+              which consists of 9 members. We are always ready to help and
               support you, just ask!
             </p>
           </div>
         </div>
-        <div className="i-right">
-          <div className="container" style={{ zIndex: 15 }}>
-            <div className="word w1" style={{ color: "#414141" }}>
-              Now
-            </div>
-            <div className="word w2" style={{ color: "#414141" }}>
-              Learn
-            </div>
-            <div className="word w3" style={{ color: "#414141" }}>
-              Later
-            </div>
-            <div className="word w4" style={{ color: "#414141" }}>
-              Earn
-            </div>
-          </div>
-        </div>
+        <div className="i-right"></div>
         <script src="./sogot" type="text/javascript"></script>
       </div>
     </>
